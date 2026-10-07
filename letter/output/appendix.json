@@ -1,0 +1,311 @@
+{
+  "A1_by_measure": {
+    "Basic-services fee, annual": {
+      "n": 323,
+      "new_n": 211,
+      "new_chg": 98,
+      "same_n": 112,
+      "same_chg": 2,
+      "rate_new": 0.46445497630331756,
+      "rate_same": 0.017857142857142856,
+      "sens": 0.98,
+      "spec": 0.49327354260089684,
+      "J": 0.47327354260089693
+    },
+    "Direct cremation, annual": {
+      "n": 379,
+      "new_n": 252,
+      "new_chg": 165,
+      "same_n": 127,
+      "same_chg": 28,
+      "rate_new": 0.6547619047619048,
+      "rate_same": 0.2204724409448819,
+      "sens": 0.8549222797927462,
+      "spec": 0.532258064516129,
+      "J": 0.38718034430887505
+    },
+    "Immediate burial incl. casket, annual": {
+      "n": 341,
+      "new_n": 222,
+      "new_chg": 159,
+      "same_n": 119,
+      "same_chg": 22,
+      "rate_new": 0.7162162162162162,
+      "rate_same": 0.18487394957983194,
+      "sens": 0.8784530386740331,
+      "spec": 0.60625,
+      "J": 0.48470303867403297
+    },
+    "Any headline price (main sample), annual": {
+      "n": 348,
+      "new_n": 226,
+      "new_chg": 197,
+      "same_n": 122,
+      "same_chg": 40,
+      "rate_new": 0.8716814159292036,
+      "rate_same": 0.32786885245901637,
+      "sens": 0.8312236286919831,
+      "spec": 0.7387387387387387,
+      "J": 0.5699623674307217
+    },
+    "Direct cremation, two-year links": {
+      "n": 355,
+      "new_n": 299,
+      "new_chg": 233,
+      "same_n": 56,
+      "same_chg": 17,
+      "rate_new": 0.7792642140468228,
+      "rate_same": 0.30357142857142855,
+      "sens": 0.932,
+      "spec": 0.37142857142857144,
+      "J": 0.3034285714285714
+    },
+    "Any headline price, two-year links": {
+      "n": 325,
+      "new_n": 271,
+      "new_chg": 255,
+      "same_n": 54,
+      "same_chg": 20,
+      "rate_new": 0.940959409594096,
+      "rate_same": 0.37037037037037035,
+      "sens": 0.9272727272727272,
+      "spec": 0.68,
+      "J": 0.6072727272727274
+    },
+    "Kansas City direct cremation, 2018-2020 (month dates)": {
+      "n": 81,
+      "new_n": 59,
+      "new_chg": 37,
+      "same_n": 22,
+      "same_chg": 1,
+      "rate_new": 0.6271186440677966,
+      "rate_same": 0.0454545454545454,
+      "sens": 0.9736842105263158,
+      "spec": 0.4883720930232558,
+      "J": 0.4620563035495717
+    },
+    "Kansas City direct cremation, 2020-2023 (month dates)": {
+      "n": 75,
+      "new_n": 68,
+      "new_chg": 54,
+      "same_n": 7,
+      "same_chg": 1,
+      "rate_new": 0.7941176470588235,
+      "rate_same": 0.1428571428571428,
+      "sens": 0.9818181818181818,
+      "spec": 0.3,
+      "J": 0.2818181818181817
+    }
+  },
+  "A2_noise": {
+    "new": {
+      "events": 403,
+      "decreases": 55,
+      "share_decreases": 0.13647642679900746,
+      "next_year_observed": 315,
+      "reverts": 12,
+      "revert_rate": 0.0380952380952381,
+      "by_component": {
+        "basic_services_fee": {
+          "events": 91,
+          "decreases": 11,
+          "observed": 66,
+          "reverts": 3
+        },
+        "direct_cremation": {
+          "events": 153,
+          "decreases": 22,
+          "observed": 125,
+          "reverts": 4
+        },
+        "immediate_burial": {
+          "events": 159,
+          "decreases": 22,
+          "observed": 124,
+          "reverts": 5
+        }
+      }
+    },
+    "same": {
+      "events": 49,
+      "decreases": 18,
+      "share_decreases": 0.3673469387755102,
+      "next_year_observed": 40,
+      "reverts": 6,
+      "revert_rate": 0.15,
+      "by_component": {
+        "basic_services_fee": {
+          "events": 1,
+          "decreases": 0,
+          "observed": 1,
+          "reverts": 0
+        },
+        "direct_cremation": {
+          "events": 26,
+          "decreases": 6,
+          "observed": 20,
+          "reverts": 1
+        },
+        "immediate_burial": {
+          "events": 22,
+          "decreases": 12,
+          "observed": 19,
+          "reverts": 5
+        }
+      }
+    },
+    "fisher_p_decreases": 0.0002601530469016107,
+    "fisher_p_reverts": 0.00936950332507116,
+    "persistent_keep_unverifiable": {
+      "n": 348,
+      "new_n": 226,
+      "new_chg": 194,
+      "same_n": 122,
+      "same_chg": 35,
+      "rate_new": 0.8584070796460177,
+      "rate_same": 0.28688524590163933,
+      "sens": 0.8471615720524017,
+      "spec": 0.7310924369747899,
+      "J": 0.5782540090271917
+    },
+    "persistent_drop_unverifiable": {
+      "n": 295,
+      "new_n": 181,
+      "new_chg": 149,
+      "same_n": 114,
+      "same_chg": 27,
+      "rate_new": 0.8232044198895028,
+      "rate_same": 0.23684210526315788,
+      "sens": 0.8465909090909091,
+      "spec": 0.7310924369747899,
+      "J": 0.5776833460656989
+    },
+    "same_date_repricing_establishments": 16,
+    "same_date_repricing_max_share_one_establishment": 0.15
+  },
+  "A3_robustness": [
+    {
+      "check": "Baseline",
+      "new": "197/226",
+      "rate_new": 0.8716814159292036,
+      "same": "40/122",
+      "rate_same": 0.3278688524590163,
+      "gap": 0.5438125634701872
+    },
+    {
+      "check": "All three prices observed",
+      "new": "167/191",
+      "rate_new": 0.8743455497382199,
+      "same": "36/106",
+      "rate_same": 0.3396226415094339,
+      "gap": 0.534722908228786
+    },
+    {
+      "check": "Cremation or fee only (burial dropped)",
+      "new": "147/195",
+      "rate_new": 0.7538461538461538,
+      "same": "25/109",
+      "rate_same": 0.2293577981651376,
+      "gap": 0.5244883556810163
+    },
+    {
+      "check": "Both surveys 2019 or later",
+      "new": "74/82",
+      "rate_new": 0.902439024390244,
+      "same": "13/52",
+      "rate_same": 0.25,
+      "gap": 0.652439024390244
+    },
+    {
+      "check": "Omit 2016--2017 survey redesign",
+      "new": "178/203",
+      "rate_new": 0.8768472906403941,
+      "same": "34/110",
+      "rate_same": 0.3090909090909091,
+      "gap": 0.567756381549485
+    },
+    {
+      "check": "Omit website/phone-sourced flags",
+      "new": "197/226",
+      "rate_new": 0.8716814159292036,
+      "same": "37/119",
+      "rate_same": 0.3109243697478991,
+      "gap": 0.5607570461813045
+    },
+    {
+      "check": "Omit two audited histories",
+      "new": "189/217",
+      "rate_new": 0.8709677419354839,
+      "same": "34/109",
+      "rate_same": 0.3119266055045872,
+      "gap": 0.5590411364308967
+    },
+    {
+      "check": "Threshold \\$25",
+      "new": "194/226",
+      "rate_new": 0.8584070796460177,
+      "same": "40/122",
+      "rate_same": 0.3278688524590163,
+      "gap": 0.5305382271870014
+    },
+    {
+      "check": "Threshold 2.5\\%",
+      "new": "182/226",
+      "rate_new": 0.8053097345132744,
+      "same": "35/122",
+      "rate_same": 0.2868852459016393,
+      "gap": 0.5184244886116351
+    },
+    {
+      "check": "Threshold 5\\%",
+      "new": "158/226",
+      "rate_new": 0.6991150442477876,
+      "same": "24/122",
+      "rate_same": 0.1967213114754098,
+      "gap": 0.5023937327723778
+    },
+    {
+      "check": "Drop changes reversed next year",
+      "new": "194/226",
+      "rate_new": 0.8584070796460177,
+      "same": "35/122",
+      "rate_same": 0.28688524590163933,
+      "gap": 0.5715218337443784
+    }
+  ],
+  "leave_one_brand_out_gap_range": [
+    0.5243200317649395,
+    0.559683794466403
+  ],
+  "leave_one_establishment_out_gap_range": [
+    0.5232850241545893,
+    0.571709542915585
+  ],
+  "worst_case_gap": 0.264074074074074,
+  "by_period": {
+    "2014--2019": {
+      "n": 214,
+      "new_n": 144,
+      "new_chg": 123,
+      "same_n": 70,
+      "same_chg": 27,
+      "rate_new": 0.8541666666666666,
+      "rate_same": 0.38571428571428573,
+      "sens": 0.82,
+      "spec": 0.671875,
+      "J": 0.49187499999999984
+    },
+    "2020--2024": {
+      "n": 134,
+      "new_n": 82,
+      "new_chg": 74,
+      "same_n": 52,
+      "same_chg": 13,
+      "rate_new": 0.9024390243902439,
+      "rate_same": 0.25,
+      "sens": 0.8505747126436781,
+      "spec": 0.8297872340425532,
+      "J": 0.6803619466862312
+    }
+  }
+}

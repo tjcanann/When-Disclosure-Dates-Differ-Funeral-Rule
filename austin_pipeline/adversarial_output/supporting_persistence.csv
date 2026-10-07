@@ -1,0 +1,9 @@
+model,variable,coef,se,p,n,note
+formal_menu_state_dependence_unit_year_fe,prior_gpl_age_years,0.06195321156731076,0.03128635738049741,0.04768117948966926,435,years of prior GPL age
+formal_menu_age_bins_unit_year_fe,"C(formal_age_bin, Treatment(reference=""<0.75""))[T.0.75-1.5]",-0.020004143990666794,0.05482444559549433,0.7152037036507469,435,reference <0.75 years
+formal_menu_age_bins_unit_year_fe,"C(formal_age_bin, Treatment(reference=""<0.75""))[T.1.5-2.5]",0.09687934733909051,0.0730333002949869,0.18467107807500915,435,reference <0.75 years
+formal_menu_age_bins_unit_year_fe,"C(formal_age_bin, Treatment(reference=""<0.75""))[T.2.5+]",0.2166236474866969,0.11662591136501442,0.06325100000165493,435,reference <0.75 years
+actual_price_state_dependence_unit_component_year_fe,prior_spell_age_years,0.03804196233841141,0.016996192179785916,0.025203854833664302,677,known post-change spells only
+actual_price_age_bins_unit_component_year_fe,"C(actual_age_bin, Treatment(reference=""0""))[T.1]",-0.05574577255047081,0.062239342022065325,0.3704302299337138,677,reference newly observed price spell (age 0)
+actual_price_age_bins_unit_component_year_fe,"C(actual_age_bin, Treatment(reference=""0""))[T.2]",0.1458373982670984,0.0650692606315352,0.025008972530910722,677,reference newly observed price spell (age 0)
+actual_price_age_bins_unit_component_year_fe,"C(actual_age_bin, Treatment(reference=""0""))[T.3+]",0.10893043583925101,0.07369229374095905,0.1393597469745218,677,reference newly observed price spell (age 0)

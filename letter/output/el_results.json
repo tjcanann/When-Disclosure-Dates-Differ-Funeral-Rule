@@ -1,0 +1,73 @@
+{
+  "n": 348,
+  "new_date_n": 226,
+  "new_date_reprice": 197,
+  "same_date_n": 122,
+  "same_date_reprice": 40,
+  "rate_new": 0.8716814159292036,
+  "rate_same": 0.32786885245901637,
+  "raw_gap": 0.5438125634701871,
+  "sensitivity": 0.8312236286919831,
+  "specificity": 0.7387387387387387,
+  "J": 0.5699623674307217,
+  "freq_date": 0.6494252873563219,
+  "freq_price": 0.6810344827586207,
+  "units": 53,
+  "years": "2013-2024",
+  "gamma_D": 0.08826485410508768,
+  "gamma_R": 0.04460365076795218,
+  "J_times_gamma_R": 0.025422402387755155,
+  "gamma_D_minus_J_gamma_R": 0.06284245171733252,
+  "ratio_gamma_D_to_gamma_R": 1.978870621247581,
+  "lagged_state_n": 276,
+  "two_year": {
+    "all_two_year_links": {
+      "n": 325,
+      "new_n": 271,
+      "new_reprice": 255,
+      "same_n": 54,
+      "same_reprice": 20,
+      "rate_new": 0.940959409594096,
+      "rate_same": 0.37037037037037035,
+      "sensitivity": 0.9272727272727272,
+      "specificity": 0.68,
+      "J": 0.6072727272727274,
+      "coef_year_FE": 0.5597697068615455,
+      "se": 0.08146014642744782
+    },
+    "window_years_2020_2022_2024": {
+      "n": 51,
+      "new_n": 41,
+      "new_reprice": 37,
+      "same_n": 10,
+      "same_reprice": 3,
+      "rate_new": 0.9024390243902439,
+      "rate_same": 0.3,
+      "sensitivity": 0.925,
+      "specificity": 0.6363636363636364,
+      "J": 0.5613636363636365,
+      "coef_year_FE": 0.5683060109289617,
+      "se": 0.16563618090131244
+    }
+  },
+  "component_rates_all_annual_links": {
+    "direct_cremation": {
+      "same_n": 127,
+      "same_chg": 28,
+      "new_n": 252,
+      "new_chg": 165
+    },
+    "immediate_burial": {
+      "same_n": 119,
+      "same_chg": 22,
+      "new_n": 222,
+      "new_chg": 159
+    },
+    "ndf": {
+      "same_n": 112,
+      "same_chg": 2,
+      "new_n": 211,
+      "new_chg": 98
+    }
+  }
+}

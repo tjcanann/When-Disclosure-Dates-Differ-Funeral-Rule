@@ -1,0 +1,2 @@
+outcome,sample,coefficient_on_repricing,se_cluster_establishment,p,n,clusters
+any_adjacent_gpl_date_change,same_current_gpl_date_with_at_least_one_adjacent_interval_observed,-0.05340358571321638,0.12646154314618954,0.6728125446081094,119,33

@@ -1,0 +1,14 @@
+result,group,n,estimate,se,p
+headline_repricing_rate,same_gpl_date,122,0.32786885245901637,,
+headline_repricing_rate,new_gpl_date,226,0.8716814159292036,,
+component_change_rate_direct_cremation,all,379,0.5092348284960422,,
+component_change_rate_direct_cremation,same_gpl_date,127,0.2204724409448819,,
+component_change_rate_direct_cremation,new_gpl_date,252,0.6547619047619048,,
+component_change_rate_immediate_burial,all,341,0.530791788856305,,
+component_change_rate_immediate_burial,same_gpl_date,119,0.18487394957983194,,
+component_change_rate_immediate_burial,new_gpl_date,222,0.7162162162162162,,
+component_change_rate_basic_services_fee,all,323,0.30959752321981426,,
+component_change_rate_basic_services_fee,same_gpl_date,112,0.017857142857142856,,
+component_change_rate_basic_services_fee,new_gpl_date,211,0.46445497630331756,,
+formal_revision_coefficient,year_FE,348,0.5293114574952633,0.06309441438614498,4.894748457794253e-17
+formal_revision_coefficient,establishment_and_year_FE,348,0.5567266702116866,0.07455892002066053,8.208378101805449e-14

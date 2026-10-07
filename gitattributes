@@ -1,0 +1,5 @@
+# Keep every text file with LF line endings on all platforms, so run_all.sh runs
+# under bash and the SHA-256 checksums in docs/SHA256SUMS.txt stay valid.
+* text=auto eol=lf
+*.pdf binary
+*.png binary

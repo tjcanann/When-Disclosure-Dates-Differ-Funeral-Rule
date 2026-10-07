@@ -1,0 +1,23 @@
+\begin{table}[t]
+\centering\footnotesize
+\caption{Prior price-list age and the two measures of repricing, Greater Austin.}\label{tab:age}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lcccc@{}}
+\toprule
+Outcome: & Date change & Price change & Date change & Price change \\
+Also controls for: & -- & -- & Price change & Date change \\
+ & (1) & (2) & (3) & (4) \\
+\midrule
+\multicolumn{5}{@{}l}{\emph{Establishment and year effects}}\\
+Prior list age (years) & 0.088 & 0.045 & 0.065 & $-$0.005 \\
+ & (0.038) & (0.022) & (0.037) & (0.027) \\
+ & [0.016] & [0.062] & [0.096] & [0.869] \\[2pt]
+\multicolumn{5}{@{}l}{\emph{Year effects only}}\\
+Prior list age (years) & $-$0.076 & $-$0.008 & $-$0.072 & 0.034 \\
+ & (0.022) & (0.018) & (0.021) & (0.017) \\
+ & [0.006] & [0.673] & [0.016] & [0.099] \\[2pt]
+\bottomrule
+\end{tabular*}
+\begin{minipage}{\textwidth}\vspace{3pt}\scriptsize
+Notes: Linear probability models; 348 annual intervals, 53 establishments. Prior list age is the age of the effective date on the preceding survey's list. Standard errors clustered by establishment in parentheses; wild-cluster bootstrap $p$-values (Rademacher, 4,999 draws) in brackets. Under nondifferential date error the coefficient in column (3) is zero and column (1) equals $J\times$ column (2). Column (4) conditions on an outcome.
+\end{minipage}
+\end{table}

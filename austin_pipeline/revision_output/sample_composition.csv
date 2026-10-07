@@ -1,0 +1,12 @@
+statistic,value,note
+Establishment-year observations,674.0,
+Unique establishment identifiers,73.0,
+"Annual establishments observed, minimum",49.0,
+"Annual establishments observed, maximum",56.0,
+Establishment-years with usable GPL date,568.0,84.3%
+Date-defined consecutive intervals,435.0,
+Final headline intervals,348.0,80.0% of date-defined intervals
+Establishments in final sample,53.0,
+Establishments assigned to coded multi-establishment brands,22.0,41.5%
+Multi-establishment brands in final sample,7.0,
+Mean establishments per multi-establishment brand,3.142857142857143,

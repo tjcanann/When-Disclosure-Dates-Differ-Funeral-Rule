@@ -1,0 +1,58 @@
+claim,printed,computed,in_text,match,source
+intervals,348 audited annual intervals,348 audited annual intervals,True,True,el_results n
+new-date repricing rate,87.2\%,87.2\%,True,True,el_results rate_new
+same-date repricing rate,32.8\%,32.8\%,True,True,el_results rate_same
+sensitivity pct (abstract),83.1\%,83.1\%,True,True,el_results sensitivity
+specificity pct (abstract),73.9\%,73.9\%,True,True,el_results specificity
+J pct,57\%,57\%,True,True,el_results J
+date freq,64.9\%,64.9\%,True,True,el_results freq_date
+price freq,68.1\%,68.1\%,True,True,el_results freq_price
+J,0.570,0.570,True,True,el_results J
+records 2013-2024,622 establishment-year records for 71,622 establishment-year records for 71,True,True,"analytic_panel.csv, survey_year<=2024"
+establishments in sample,348 intervals from 53 establishments,348 intervals from 53 establishments,True,True,el_results units
+new-date count,197 of 226,197 of 226,True,True,2x2
+same-date count,40 of 122,40 of 122,True,True,2x2
+sensitivity,sensitivity 0.831,sensitivity 0.831,True,True,2x2
+sens numerator,197 of 237,197 of 237,True,True,2x2
+specificity,specificity 0.739,specificity 0.739,True,True,2x2
+spec numerator,82 of 111,82 of 111,True,True,2x2
+coef year FE,0.529 (0.063),0.529 (0.063),True,True,list_age_tests
+coef unit+year FE,0.557 (0.075),0.557 (0.075),True,True,list_age_tests
+coef + age,0.559 (0.076),0.559 (0.076),True,True,list_age_tests
+wild p < 0.001,below 0.001,below 0.001,True,True,models_and_cluster_inference wild_p
+same-date component events,49 changed prices,49 changed prices,True,True,phase3d_magnitude_summary
+median $ change,\$150 (7.3\%),\$150 (7.3\%),True,True,phase3d_magnitude_summary
+>= $100,32 of the 40,32 of the 40,True,True,phase3d share_same_date_intervals_max_change_ge_100
+all three prices,(87.4\% versus 34.0\%),(87.4\% versus 34.0\%),True,True,measurement_robustness
+drop burial,(75.4\% versus 22.9\%),(75.4\% versus 22.9\%),True,True,measurement_robustness
+5% threshold,(69.9\% versus 19.7\%),(69.9\% versus 19.7\%),True,True,headline_thresholds
+worst-case gap,26.4 percentage points,26.4 percentage points,True,True,attrition_gap_bounds
+fee same-date,2 of 112,2 of 112,True,True,component rates
+J CI,0.454--0.681,0.454--0.681,True,True,sim_boot J_ci95
+gamma_D FE,0.088 (0.038),0.088 (0.038),True,True,list_age_tests (1)
+gamma_R FE,0.045 (0.022),0.045 (0.022),True,True,list_age_tests (2)
+J*gamma_R,J\times0.045=0.025,J\times0.045=0.025,True,True,computed
+ratio,3.5 times,3.5 times,True,True,computed
+diff CI,(0.006--0.138),(0.006--0.138),True,True,sim_boot
+gamma_D year FE,reverses sign ($-0.076$),reverses sign ($-0.076$),True,True,list_age_tests (1y)
+gamma_R year FE,near zero ($-0.008$),near zero ($-0.008$),True,True,list_age_tests (2y)
+D|R year FE,"($-0.072$, wild $p=0.016$)","($-0.072$, wild $p=0.016$)",True,True,list_age_tests (4y)
+intervals per unit,about seven intervals,about seven intervals,True,True,panel_T
+sim within range,0.063--0.091,0.063--0.091,True,True,sim_boot
+sim pooled range,$-0.101$ to 0.003,$-0.101$ to 0.003,True,True,sim_boot
+KC new-month rates,(62.7\% and 79.4\%),(62.7\% and 79.4\%),True,True,kc_market_specific_associations
+KC same-month rates,"(4.5\% and 14.3\%, from only 22 and 7 intervals)","(4.5\% and 14.3\%, from only 22 and 7 intervals)",True,True,kc
+KC J,$J$ is 0.462 and 0.282,$J$ is 0.462 and 0.282,True,True,kc
+Austin DC 2yr J,gives $J=0.303$,gives $J=0.303$,True,True,appendix A1
+decreases,(18 of 49 versus 55 of 403),(18 of 49 versus 55 of 403),True,True,appendix A2
+reversals,(6 of 40 versus 12 of 315),(6 of 40 versus 12 of 315),True,True,appendix A2
+burial decreases,12 of its 22 same-date changes are decreases and 5 of 19 reverse,12 of its 22 same-date changes are decreases and 5 of 19 reverse,True,True,appendix A2
+cremation increases,(20 of 26 are increases and 1 of 20 reverses),(20 of 26 are increases and 1 of 20 reverses),True,True,appendix A2
+persistent,85.8\% versus 28.7\% ($J=0.578$),85.8\% versus 28.7\% ($J=0.578$),True,True,appendix A2
+abstract annual J 0.570 vs 0.303,against 0.570 for annual links,against 0.570 for annual links,True,True,el_results
+fee unchanged,110 of 112 links,110 of 112 links,True,True,component rates
+KC carried entries,25 of 113 entries,25 of 113 entries,True,True,FCA-GKC 2020 publication (not recomputed here)
+FCAFL 2019 list,reports a list dated 2019,reports a list dated 2019,True,True,"FCAFL 2025 survey, Table 1, Perkins 10 Feb. 2019 (not recomputed here)"
+misclassified share,one interval in five,one interval in five,True,True,2x2 accuracy
+audit flags,All 45 intervals,All 45 intervals,True,True,"audit ledger, austin_pipeline/source_results (not recomputed here)"
+audit removed,removing five false flags,removing five false flags,True,True,"audit ledger, austin_pipeline/source_results (not recomputed here)"

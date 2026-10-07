@@ -1,0 +1,13 @@
+{
+  "main_n": 348,
+  "price_cells_corrected": 3,
+  "main_binary_outcomes_changed": 0,
+  "baseline_price_panel_sha256": "ea388f809f13c0558a8227136966415f7a41f7c66e11570223d6949985ccd8eb",
+  "corrected_price_panel_sha256": "ed6eeb693f5d50f6f7cf33401bca64da766adda6b35c547873d03181c7957e6f",
+  "random_rechecked_intervals": 10,
+  "purposive_rechecked_intervals": 2,
+  "rechecked_intervals_with_retained_flag": 12,
+  "rechecked_intervals_requiring_level_correction": 1,
+  "cluster_blocks": 38,
+  "scripts_compute_from_audited_panel_not_automated_pdf_reextraction": true
+}

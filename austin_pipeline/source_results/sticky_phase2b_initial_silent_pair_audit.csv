@@ -1,0 +1,46 @@
+survey_year,phone7,canonical_name,initial_prev_gpl_date,initial_gpl_date,initial_any_headline_change,clean_formal_revision,clean_any_headline_change,audit_status
+2014,2372365,Mortuary,2009-08-06,2009-08-06,1.0,0.0,1.0,source_confirmed_same_date_repricing_with_partial_parser_correction
+2017,2372365,Mortuary,2015-11-20,2015-11-20,1.0,0.0,1.0,source_confirmed_same_date_repricing
+2023,2372365,Mortuary,2019-09-03,2019-09-03,1.0,0.0,1.0,website_derived_price_change_same_reported_gpl_date
+2024,2372365,Mortuary,2019-09-03,2019-09-03,1.0,0.0,1.0,website_derived_price_change_same_reported_gpl_date
+2014,2815697,Elgin Funeral Home,2011-03-27,2011-03-27,1.0,0.0,0.0,parser_or_row_alignment_false_positive
+2018,2941499,Solace Eco-Friendly Funeral Services,2017-02-07,2017-02-07,1.0,0.0,0.0,parser_or_row_alignment_false_positive
+2014,3089188,Bastrop Providence Funeral Home,2012-12-01,2012-12-01,1.0,0.0,1.0,source_confirmed_same_date_repricing_with_partial_parser_correction
+2019,3268878,All Faiths Funeral Services,2017-10-30,2017-10-30,1.0,0.0,0.0,parser_or_row_alignment_false_positive
+2019,3398878,All Faiths Funeral Services,2017-10-30,2017-10-30,1.0,0.0,0.0,parser_or_row_alignment_false_positive
+2014,3525909,Providence Funeral Home,2012-11-05,2012-11-05,1.0,0.0,1.0,source_confirmed_same_date_repricing
+2017,3525909,Providence Funeral Home,2015-10-01,2015-10-01,1.0,0.0,1.0,source_confirmed_same_date_repricing
+2016,3656000,"Life Celebration by Franklin, A",2012-11-30,2012-11-30,1.0,0.0,1.0,source_confirmed_same_date_repricing
+2018,3656000,"Life Celebration by Franklin, A",2012-11-30,2012-11-30,1.0,0.0,1.0,source_confirmed_same_date_repricing
+2021,3656000,"Life Celebration by Franklin, A",2019-03-25,2019-03-25,1.0,0.0,1.0,source_confirmed_same_date_repricing
+2014,3923676,Los Angeles Funeral Home,2013-01-15,2013-01-15,1.0,1.0,1.0,gpl_date_parse_error_not_silent_after_audit
+2015,3923676,Los Angeles Funeral Home,2013-01-15,2013-01-15,1.0,0.0,1.0,source_confirmed_same_date_repricing
+2018,3923676,Los Angeles Funeral Home,2017-01-15,2017-01-15,1.0,0.0,1.0,source_confirmed_same_date_repricing
+2023,3923676,Los Angeles Funeral Home,2020-11-16,2020-11-16,1.0,0.0,1.0,source_confirmed_same_date_repricing
+2016,3962300,Thomason Funeral Home,2014-10-01,2014-10-01,1.0,0.0,1.0,source_confirmed_same_date_repricing_with_partial_parser_correction
+2017,3982343,Eeds Funeral Home,2015-01-01,2015-01-01,1.0,0.0,1.0,source_confirmed_same_date_repricing_with_partial_parser_correction
+2022,3982343,Eeds Funeral Home,2021-01-01,2021-01-01,1.0,0.0,1.0,source_confirmed_same_date_repricing
+2023,4197224,Austin-Peel & Son Funeral Home,2021-12-01,2021-12-01,1.0,0.0,1.0,source_confirmed_same_date_repricing
+2015,4443355,Mission Serenity Chapel (South Side),2011-03-01,2011-03-01,1.0,0.0,1.0,source_confirmed_same_date_repricing
+2024,4443355,Mission Serenity Chapel (South Side),2021-12-01,2021-12-01,1.0,0.0,1.0,source_confirmed_same_date_repricing
+2017,4721934,Phillips-Upshaw & Richard Funeral Home,2015-01-01,2015-01-01,1.0,0.0,1.0,source_confirmed_same_date_repricing
+2021,4721934,Phillips-Upshaw & Richard Funeral Home,2020-01-01,2020-01-01,1.0,0.0,1.0,source_confirmed_same_date_repricing
+2024,4721934,Phillips-Upshaw & Richard Funeral Home,2022-02-15,2022-02-15,1.0,0.0,1.0,source_confirmed_same_date_repricing
+2015,4764355,Mission Funeral Home (East Side),2011-04-01,2011-04-01,1.0,0.0,1.0,source_confirmed_same_date_repricing
+2016,4764355,Mission Funeral Home (East Side),2011-04-01,2011-04-01,1.0,0.0,1.0,source_confirmed_same_date_repricing
+2016,4769128,King-Tears Mortuary,2012-10-24,2012-10-24,1.0,0.0,1.0,source_confirmed_same_date_repricing
+2017,4769128,King-Tears Mortuary,2012-10-24,2012-10-24,1.0,0.0,1.0,source_confirmed_same_date_repricing
+2019,4769128,King-Tears Mortuary,2012-10-24,2012-10-24,1.0,0.0,1.0,source_confirmed_same_date_repricing
+2020,4769128,King-Tears Mortuary,2012-10-24,2012-10-24,1.0,0.0,1.0,source_confirmed_same_date_repricing
+2023,4769128,King-Tears Mortuary,2022-01-02,2022-01-02,1.0,0.0,1.0,source_confirmed_same_date_repricing
+2014,4777495,"Simple Tradition, A (no website)",2008-04-15,2008-04-15,1.0,,,source_change_retained_but_primary_pair_insufficient_after_audit
+2015,4777495,"Simple Tradition, A (no website)",2008-04-15,2008-04-15,1.0,0.0,1.0,source_confirmed_same_date_repricing
+2016,8472226,Thomason Funeral Home,2014-10-01,2014-10-01,1.0,0.0,1.0,source_confirmed_same_date_repricing_with_partial_parser_correction
+2015,8698888,"Gabriels Funeral Chapel, The",2013-11-01,2013-11-01,1.0,0.0,1.0,source_confirmed_same_date_repricing
+2016,8698888,"Gabriels Funeral Chapel, The",2013-11-01,2013-11-01,1.0,0.0,1.0,source_confirmed_same_date_repricing_with_partial_parser_correction
+2016,8755713,O’Bannon Funeral Home,2014-10-01,2014-10-01,1.0,0.0,1.0,source_confirmed_same_date_repricing
+2017,8755713,O’Bannon Funeral Home,2014-10-01,2014-10-01,1.0,0.0,1.0,source_confirmed_same_date_repricing
+2018,8755713,O’Bannon Funeral Home,2014-10-01,2014-10-01,1.0,0.0,1.0,source_confirmed_same_date_repricing
+2019,8755713,O’Bannon Funeral Home,2014-10-01,2014-10-01,1.0,0.0,1.0,source_confirmed_same_date_repricing
+2021,8755713,O’Bannon Funeral Home,2019-02-01,2019-02-01,1.0,0.0,1.0,source_confirmed_same_date_repricing
+2022,8755713,O’Bannon Funeral Home,2019-02-01,2019-02-01,1.0,0.0,1.0,source_confirmed_same_date_repricing

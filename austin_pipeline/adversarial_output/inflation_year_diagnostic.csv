@@ -1,0 +1,3 @@
+outcome,coef_infl_pp,se,p,n_years,r2,note
+formal_revision_rate,-0.0015736990333224121,0.009047268537985024,0.8657607385150208,11,0.003350490122883132,year-level descriptive regression; only annual macro variation
+actual_component_change_rate,-0.008519438135035029,0.011579053117271386,0.4806096559400992,11,0.056736967486247236,year-level descriptive regression; only annual macro variation

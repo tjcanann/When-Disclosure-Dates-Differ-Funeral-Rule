@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper and credit the Funeral Consumers Alliance of Central Texas and of Greater Kansas City as data sources."
+title: "Replication package: When Disclosure Dates and Prices Diverge: Evidence from the Funeral Rule"
+type: software
+authors:
+  - family-names: Canann
+    given-names: Taylor J.
+    affiliation: "Department of Economics and Finance, College of Business, Louisiana Tech University"
+    email: tcanann@latech.edu
+license: MIT
+date-released: 2026-10-07
+url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7548560"
+preferred-citation:
+  type: report
+  title: "When Disclosure Dates and Prices Diverge: Evidence from the Funeral Rule"
+  authors:
+    - family-names: Canann
+      given-names: Taylor J.
+  year: 2026
+  institution:
+    name: "SSRN Working Paper 7548560"
+  url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7548560"

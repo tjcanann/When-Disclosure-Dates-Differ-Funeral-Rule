@@ -1,0 +1,15 @@
+{
+  "components": {
+    "title/author block": 34,
+    "abstract": 95,
+    "keywords + JEL": 16,
+    "main text (sections 1-4, incl. equation, headings)": 1418,
+    "tables (captions, cells, notes)": 288,
+    "declarations (data, AI, acknowledgments)": 151
+  },
+  "A_text_only (abstract + main text)": 1513,
+  "B_text + tables": 1801,
+  "C_everything except references and title block": 1968,
+  "D_everything except references": 2002,
+  "E_source_count_detex (all incl. title, excl. refs)": 1751
+}

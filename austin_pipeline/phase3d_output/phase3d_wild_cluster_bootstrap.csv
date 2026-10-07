@@ -1,0 +1,3 @@
+specification,coefficient,cluster_se,t_obs,wild_cluster_p,bootstrap_repetitions,n,clusters
+year_FE,0.5293114574952624,0.06309441438614487,8.389196771933204,0.0002,4999,348,53
+establishment_and_year_FE_plus_prior_GPL_age,0.5586342631252115,0.07582266551462047,7.367642107194096,0.0002,4999,348,53

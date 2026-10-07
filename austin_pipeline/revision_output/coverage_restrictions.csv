@@ -1,0 +1,5 @@
+restriction,gpl_status,n,repricing_rate,n_establishments
+GPL date observed in >=80% of establishment-years,New GPL date,197,0.883248730964467,42
+GPL date observed in >=80% of establishment-years,Same GPL date,114,0.34210526315789475,42
+At least 5 usable headline intervals,New GPL date,194,0.8917525773195877,36
+At least 5 usable headline intervals,Same GPL date,112,0.3392857142857143,36

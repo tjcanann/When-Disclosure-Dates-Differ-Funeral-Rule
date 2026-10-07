@@ -1,0 +1,5 @@
+metric,same_brand,n,matches,rate
+same_current_gpl_exact,False,606,6,0.009900990099009901
+same_current_gpl_exact,True,79,49,0.620253164556962
+same_prev_gpl_exact,False,611,4,0.006546644844517185
+same_prev_gpl_exact,True,81,54,0.6666666666666666

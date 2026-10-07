@@ -1,0 +1,7 @@
+price_status,event_time,n,gpl_date_change_count,gpl_date_change_rate
+repricing,-1,194,134,0.6907216494845361
+repricing,0,237,197,0.8312236286919831
+repricing,1,201,136,0.6766169154228856
+no_repricing,-1,93,51,0.5483870967741935
+no_repricing,0,111,29,0.26126126126126126
+no_repricing,1,94,55,0.5851063829787234

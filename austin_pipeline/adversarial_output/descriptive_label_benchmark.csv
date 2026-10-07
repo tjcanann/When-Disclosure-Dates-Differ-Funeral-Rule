@@ -1,0 +1,7 @@
+grouping,sample,metric,observed,permutation_mean,permutation_p95,one_sided_p,n_permutations,observed_n_pairs,observed_n_active_pairs,observed_n_active_baseline_diff_pairs
+brand_group,brand_group,exact_component_vector,0.8260869565217391,0.30149956569109865,0.3793103448275862,0.0005,1999,92,65,42
+brand_group,brand_group,exact_dollar_vector,0.6847826086956522,0.16822022647831714,0.22826086956521738,0.0005,1999,92,65,42
+brand_group,brand_group,active_exact_component_vector,0.7538461538461538,0.20859508628420015,0.2785740878629932,0.0005,1999,92,65,42
+brand_group,brand_group,active_exact_dollar_vector,0.5538461538461539,0.057346399613853,0.10256410256410256,0.0005,1999,92,65,42
+brand_group,brand_group,active_baseline_diff_exact_component_vector,0.6190476190476191,0.18145805132041176,0.25,0.0005,1999,92,65,42
+brand_group,brand_group,active_baseline_diff_exact_dollar_vector,0.30952380952380953,0.025035282402838966,0.05714285714285714,0.0005,1999,92,65,42

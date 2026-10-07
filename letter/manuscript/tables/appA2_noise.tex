@@ -1,0 +1,13 @@
+\begin{table}[H]\centering\footnotesize
+\caption{Do same-date price changes look like survey noise?}\label{tab:A2}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{3.6cm}cccccc@{}}\toprule
+ & \multicolumn{3}{c}{Same date} & \multicolumn{3}{c}{New date}\\\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+Component & Changes & Decreases & Reversed & Changes & Decreases & Reversed \\\midrule
+Direct cremation & 26 & 6 & 1/20 & 153 & 22 & 4/125 \\
+Burial incl.~casket & 22 & 12 & 5/19 & 159 & 22 & 5/124 \\
+Basic-services fee & 1 & 0 & 0/1 & 91 & 11 & 3/66 \\
+All & 49 & 18 & 6/40 & 403 & 55 & 12/315 \\
+\bottomrule\end{tabular*}
+\begin{minipage}{\textwidth}\vspace{3pt}\scriptsize Notes: Changed component events (more than \$5) in the 348 annual intervals. Reversed: the price at $t+1$ is within \$5 of its value at $t-1$, among events whose next-year price is observed. Fisher exact $p$-values for same- versus new-date differences: decreases $<0.001$, reversals 0.009.\end{minipage}
+\end{table}

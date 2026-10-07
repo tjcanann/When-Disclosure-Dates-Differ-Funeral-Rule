@@ -1,0 +1,6 @@
+metric,numerator,denominator,estimate,ci95_low,ci95_high
+Sensitivity (share of repricing intervals with a new date),197,237,0.8312236286919831,0.7783425279954913,0.8735385923430384
+Specificity (share of stable intervals with the same date),82,111,0.7387387387387387,0.6500078016644903,0.8114980042026285
+Positive predictive value (repricing given a new date),197,226,0.8716814159292036,0.8217881287156561,0.9091504968134378
+Negative predictive value (stability given the same date),82,122,0.6721311475409836,0.5846897187166324,0.7490635641330516
+Overall accuracy,279,348,0.8017241379310345,0.7566395629045057,0.8402201724543692

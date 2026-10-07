@@ -1,0 +1,99 @@
+% Build targets:  ssrn.tex (working paper: title-page date, online appendix appended)
+%                 el.tex   (Economics Letters submission: main text only)
+%                 appendix.tex (stand-alone online appendix for the journal)
+\documentclass[preprint,12pt,authoryear]{elsarticle}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,amsmath,booktabs,microtype,float}
+\usepackage[hidelinks]{hyperref}
+\biboptions{authoryear}
+\journal{Economics Letters}
+\newcommand{\authoremail}{tcanann@latech.edu}
+% Replication package location. Uncomment and fill in when available:
+% \newcommand{\DataURL}{https://github.com/<user>/<repo>}
+% \newcommand{\DataDOI}{10.5281/zenodo.<number>}
+
+\ifdefined\SSRN
+\makeatletter
+\def\ps@pprintTitle{\let\@oddhead\@empty\let\@evenhead\@empty
+  \def\@oddfoot{\footnotesize\itshape Working paper. This version: \today\hfill Comments welcome.}\let\@evenfoot\@oddfoot}
+\makeatother
+\fi
+
+\begin{document}
+\begin{frontmatter}
+\title{When disclosure dates and prices diverge: Evidence from the Funeral Rule}
+\author{Taylor J. Canann}
+\ead{\authoremail}
+\affiliation{organization={Department of Economics and Finance, College of Business, Louisiana Tech University},
+  addressline={504 W. Texas Ave.}, city={Ruston}, state={LA}, postcode={71270}, country={USA}}
+
+\begin{abstract}
+A new effective date on a mandated price list is often read as evidence of repricing. In 348 audited annual intervals of Greater Austin funeral-home price lists (2013--2024), headline prices changed in 87.2\% of intervals with a new date and 32.8\% with an unchanged date, and the gap survives removing changes that reverse. The date flags 83.1\% of price changes and 73.9\% of stable intervals, so date-based linear probability models recover 57\% of true effects when date errors are unrelated to the regressors. For price-list age, a regressor built from the dates, they are not.
+\end{abstract}
+
+\begin{keyword}
+Price disclosure \sep Funeral Rule \sep Price rigidity \sep Misclassification \sep Measurement error
+\JEL C81 \sep D18 \sep E31 \sep L11 \sep L84
+\end{keyword}
+\end{frontmatter}
+
+\section{Introduction}
+Many price-disclosure rules require the disclosed document to carry a date. Under the U.S. Federal Trade Commission's Funeral Rule, every funeral provider must offer a General Price List (GPL) stating the date from which its prices apply \citep{ftc_funeral_rule_guide}. Anyone who cannot observe prices continuously is tempted to read an unchanged date as unchanged prices. Consumer organizations that survey these lists carry prices forward when no new list arrives: the Kansas City survey of 2020 marks 25 of 113 entries as retained from 2018, and the Finger Lakes survey of 2025 reports a list dated 2019 \citep{fcagkc2020,fcafl2025}. Whether that inference is safe matters: the frequency and timing of price changes are central moments in the study of price rigidity \citep{bils_klenow_2004,nakamura_steinsson_2008}.
+
+I test it with a validation design. For the same provider in consecutive annual surveys, I observe both the reported effective date and the recorded prices, so the date can be scored against the prices it describes. Posted-price documents have long been used to time price changes \citep{kashyap_1995,fisher_konieczny_2000}; the question here is whether a document's own date records that timing.
+
+Three results follow. First, the date is informative but noisy: prices change in 87.2\% of intervals with a new date and 32.8\% with an unchanged one, a gap that survey noise does not explain. Second, the error concerns timing, not frequency: dates change in 64.9\% of intervals and prices in 68.1\%, yet the date misclassifies one interval in five. Third, for regressions that use a date change as the outcome, the error implies an attenuation factor of 0.570, but only when the date's errors are unrelated to the regressors. For price-list age, a regressor built from the dates, that condition fails.
+
+\section{Data and measurement}
+The Funeral Consumers Alliance of Central Texas (FCACTX) publishes an annual price survey of funeral establishments in the five-county Greater Austin area \citep{fcactx_cost_comparisons}. For each establishment it reports the GPL effective date and standardized prices. The 2013--2024 waves contain 622 establishment-year records for 71 establishments, linked by telephone number.
+
+I track three headline prices separately: direct cremation, immediate burial including the provider's least expensive casket, and the non-declinable basic-services fee. An interval is an establishment observed in consecutive annual surveys with a reported date at both ends and at least two headline prices comparable at both ends. Repricing, $R$, equals one if a comparable price changes by more than \$5; a date change, $D$, equals one if the reported effective date differs. The sample has 348 intervals from 53 establishments.
+
+All 45 intervals initially flagged as same-date repricing were re-read against the survey pages, removing five false flags, and a random recheck of final flags was added (online appendix). The date studied is the effective date as the survey records it, which is how such dates enter economic data. FCACTX constructs the two bundle prices from provider documents, so they can include components priced outside the GPL, such as the casket in the burial measure.
+
+\section{Results}
+\subsection{How well does the date measure repricing?}
+Prices changed in 197 of 226 new-date intervals (87.2\%) and 40 of 122 unchanged-date intervals (32.8\%; Table~\ref{tab:signal}, first row). Treating repricing as the truth, the date has sensitivity 0.831 (it flags 197 of 237 repricing intervals) and specificity 0.739 (it leaves 82 of 111 stable intervals unflagged). In linear probability models of $R$ on $D$ with establishment-clustered standard errors, the coefficient is 0.529 (0.063) with year effects, 0.557 (0.075) with establishment and year effects, and 0.559 (0.076) adding prior list age; wild-cluster bootstrap $p$-values are below 0.001.
+
+The missed changes are not rounding. The 40 same-date repricing intervals contain 49 changed prices with a median absolute change of \$150 (7.3\%); in 32 of the 40 the largest change is at least \$100. The gap survives requiring all three prices (87.4\% versus 34.0\%), dropping the burial measure (75.4\% versus 22.9\%), a 5\% threshold (69.9\% versus 19.7\%), and a worst-case assignment of missing price outcomes, which leaves a gap of 26.4 percentage points (online appendix).
+
+Could the same-date changes be survey noise? They are more often decreases than new-date changes (18 of 49 versus 55 of 403) and more often reversed the next year (6 of 40 versus 12 of 315). Both patterns come mainly from the burial measure, whose casket price comes from a separately dated list: 12 of its 22 same-date changes are decreases and 5 of 19 reverse. Same-date changes in direct cremation look like repricing (20 of 26 are increases and 1 of 20 reverses), while the basic-services fee, a single GPL line, changes under an unchanged date in only 2 of 112 links. Dropping every change that reverses leaves 85.8\% versus 28.7\% ($J=0.578$). Survey records cannot show whether a list was edited without being re-dated or whether separately priced components changed; either way, the recorded date misstates when the prices consumers compare changed.
+
+\subsection{What the error does to regressions}
+Suppose a researcher observes $D$ rather than $R$ and regresses it on covariates $X$. If the date's error rates do not depend on $X$, then
+\begin{equation}
+E[D\mid X] = (1-\text{spec}) + J\,E[R\mid X], \qquad J = \text{sens}+\text{spec}-1,
+\end{equation}
+so every linear-probability coefficient is scaled by $J$ \citep{hausman_abrevaya_scottmorton_1998}. In Austin $J=0.570$ (block-bootstrap 95\% interval 0.454--0.681): a date-based study recovers 57\% of a true effect.
+
+The condition fails by construction for covariates computed from the dates. Prior list age, the time since the previous effective date, is the natural state variable in a hazard model of repricing; Table~\ref{tab:age} regresses each outcome on it. With establishment and year effects, a year of list age raises the probability of a date change by 0.088 (0.038) and of a price change by 0.045 (0.022). Nondifferential error would imply a date coefficient of $J\times0.045=0.025$; the estimate is 3.5 times that, and the block-bootstrap interval for the difference (0.006--0.138) excludes zero. Without establishment effects, the date coefficient reverses sign ($-0.076$), the price coefficient is near zero ($-0.008$), and age predicts a date change even holding the price change fixed ($-0.072$, wild $p=0.016$).
+
+The date coefficients are largely mechanical. List age resets whenever the date changes, so with about seven intervals per establishment the within estimate inherits a \citet{nickell_1981}-type bias, while the pooled estimate mixes providers that rarely re-date with providers that re-date often. Simulating a constant hazard, with no duration dependence, on Austin's panel dimensions yields within coefficients of 0.063--0.091 and pooled coefficients of $-0.101$ to 0.003, depending on provider heterogeneity (online appendix). A date-based hazard regression can therefore report duration dependence, of either sign, that the date itself produces \citep[cf.][]{alvarez_borovickova_shimer_2025}.
+
+\subsection{A second market}
+Kansas City offers an out-of-sample check. FCA of Greater Kansas City publishes month-level GPL dates and prices at two- and three-year intervals \citep{fcagkc2018,fcagkc2020,fcagkc2023}. For direct cremation, excluding records marked as carried forward, a new GPL month again accompanies repricing far more often (62.7\% and 79.4\%) than an unchanged month (4.5\% and 14.3\%, from only 22 and 7 intervals). The error runs the other way, toward new dates without a changed price, so $J$ is 0.462 and 0.282. Matching the measure and gap in Austin gives $J=0.303$ for direct cremation over two-year links, inside that range, against 0.570 for annual links on any of the three prices (Table~\ref{tab:signal}).
+The attenuation factor therefore depends on the price measure and interval and must be estimated for the data at hand.
+
+\section{Conclusion}
+A disclosed effective date is a useful but imperfect record of repricing. In Greater Austin it gets the frequency of price changes nearly right and the timing wrong in one interval in five, including changes of \$100 or more. It is most reliable for a single GPL line: an unchanged date accompanied an unchanged basic-services fee in 110 of 112 links. It is least reliable for the arrangement prices consumers compare. Studies that must rely on dates should estimate sensitivity and specificity for their own measure and interval, and rescale by $J$ only for regressors plausibly unrelated to the date's errors; for date-derived covariates such as list age, no rescaling applies. For disclosure policy, the FTC's consideration of online price-list posting \citep{ftc_anpr_2022} raises the value of dates that track prices.
+
+\input{tables/table1_signal}
+\input{tables/table2_age}
+
+\section*{Data availability}
+The replication package contains the FCACTX survey publications, the audited Austin panel, the Kansas City survey-derived files and code that reproduces every table and number. FCACTX permits public redistribution; FCA-GKC has authorized publication and redistribution. \ifdefined\DataDOI The package is archived at \url{https://doi.org/\DataDOI}\ifdefined\DataURL\ and maintained at \url{\DataURL}\fi.\else\ifdefined\DataURL The package is available at \url{\DataURL}.\else The package will be deposited in a public repository with a DOI; until then it is available from the author.\fi\fi
+
+\section*{Declaration of generative AI and AI-assisted technologies in the manuscript preparation process}
+During the preparation of this work the author used Claude (Anthropic) in order to re-run and extend the statistical code and to draft and edit the text. After using this tool/service, the author reviewed and edited the content as needed and takes full responsibility for the content of the published article.
+
+\section*{Acknowledgments}
+I thank the Funeral Consumers Alliance of Central Texas, the Funeral Consumers Alliance of Greater Kansas City and the Funeral Consumers Alliance of the Finger Lakes for their price surveys.
+
+\bibliographystyle{elsarticle-harv}
+\bibliography{references}
+
+\ifdefined\SSRN
+\clearpage
+\input{appendix_body}
+\fi
+\end{document}

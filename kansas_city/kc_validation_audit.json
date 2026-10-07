@@ -1,0 +1,16 @@
+{
+  "source_2020_rows": 113,
+  "explicit_carry_forward_rows": 25,
+  "carry_forward_share": 0.22123893805309736,
+  "copied_vectors_equal_2018": 25,
+  "missing_gpl_month_among_carries": 1,
+  "input_sha256": "fd25ae060894a762a585d739be18230a657d37b3acd7df9343b1d530a71344d3",
+  "2009_2012_date_test": "NOT_IDENTIFIED: supplied 2009 publication lacks establishment GPL dates",
+  "2025_workbook": "Unpublished collection frame; no prices; not used in a price interval",
+  "irregular_gaps": [
+    2,
+    3
+  ],
+  "joined_to_Austin": false,
+  "source_scope": "published survey records, not provider-original GPL histories"
+}

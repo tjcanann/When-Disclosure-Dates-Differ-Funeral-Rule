@@ -1,0 +1,39 @@
+{
+  "bootstrap_draws": 4999,
+  "J_ci95": [
+    0.4543422249699675,
+    0.6812099430967355
+  ],
+  "gamma_D_ci95": [
+    0.031532324087635476,
+    0.16748190777229793
+  ],
+  "gamma_R_ci95": [
+    -0.0007718195893657359,
+    0.08516450298803499
+  ],
+  "gamma_D_minus_J_gamma_R_ci95": [
+    0.0064453282035373625,
+    0.1375853408910707
+  ],
+  "share_draws_gamma_D_minus_J_gamma_R_le_0": 0.011802360472094419,
+  "sim_heterogeneous_beta_2.6_1.4": {
+    "unit_year_FE_mean": 0.07611823980359482,
+    "unit_year_FE_sd": 0.023431370823507654,
+    "year_FE_mean": -0.0683900482030247,
+    "year_FE_sd": 0.021224173757646927
+  },
+  "sim_homogeneous_p_0.65": {
+    "unit_year_FE_mean": 0.09096687159683114,
+    "unit_year_FE_sd": 0.0265560705981123,
+    "year_FE_mean": 0.0029638294207410413,
+    "year_FE_sd": 0.024469867968487893
+  },
+  "sim_more_dispersed_beta_1.3_0.7": {
+    "unit_year_FE_mean": 0.06349630194552451,
+    "unit_year_FE_sd": 0.019932783110672928,
+    "year_FE_mean": -0.10061305553893093,
+    "year_FE_sd": 0.014737039277627685
+  },
+  "sim_note": "Constant per-provider hazard (no duration dependence); 53 providers, 7 annual intervals; initial list age U(0,3); a new list is U(0,1) years old at the next survey, otherwise age+1. Hazard mean 0.65 matches Austin date-change frequency 0.649."
+}

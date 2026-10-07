@@ -1,0 +1,8 @@
+# Kansas City source audit method
+The 2020 PDF has an embedded text layer. Its 113 table rows were extracted using layout-preserving pdftotext and a row grammar capturing the date, three prices, telephone and address; all rows were checked against the rendered tables.
+The supplied 2018 and 2023 tables have no usable embedded text. They were visually transcribed from rendered, correctly rotated pages without OCR. Source-page and row positions are retained.
+All later-wave date-equality comparisons, the explicit 2020 carry-forward entries, and the identity-exception cases were checked against enlarged page images. This is an author/assistant source check, not independent dual human entry or verification against provider-original GPLs.
+The private recheck log records transcription corrections made during this build before locking the KC diagnostic inputs. No Austin input or estimate changed.
+Matching uses the 2020 directory as a reference. Provider-family labels are reference labels, not a claim that the provider's exact historical name or ownership was unchanged. Identity and online-scope exceptions are retained and conservatively excluded. Unmatched 2018/2023 entries do not become inferred entrants or exits.
+2018 and 2023 reported universes contain 114 entries each. The identifying comparison input contains 111 2018 entries and 106 2023 entries for which a candidate 2020 link could be proposed, plus all 113 2020 entries.
+No 2009-2012 date association is possible from the supplied publication: the common August 2009 collection header is not an establishment effective-date field. No date is invented.

@@ -1,0 +1,11 @@
+metric,estimate,denominator
+same_date_repricing_intervals,40.0,122.0
+same_date_changed_component_events,49.0,
+median_abs_dollar_change_same_date_component,150.0,49.0
+mean_abs_dollar_change_same_date_component,229.3469387755102,49.0
+median_abs_pct_change_same_date_component,7.334963325183374,49.0
+median_abs_pct_change_new_date_component,7.434944237918216,403.0
+median_max_abs_dollar_change_same_date_interval,155.0,40.0
+share_same_date_intervals_max_change_ge_100,0.8,40.0
+share_same_date_intervals_max_pct_gt_5,0.6,40.0
+share_same_date_intervals_two_or_more_components,0.2,40.0
